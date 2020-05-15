@@ -1,7 +1,7 @@
-def my_each(collection)
+def my_each(array)
  i = 0
  while i < array.length
  i = i + 1
- puts i
+ yield(array [i])
   end
 end
