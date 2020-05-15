@@ -3,4 +3,5 @@ def my_each(collection)
  while i < array.length
  i = i + 1
   end
+  puts i
 end
